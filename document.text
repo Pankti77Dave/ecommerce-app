@@ -1,0 +1,24 @@
+This application has two flows as mentioned:
+1) Admin and 2) User
+
+Firstly, there will be a step to register the user and admin so as to check which options are to be enabled.
+
+Following are the commands used in this application:
+Admin:
+set-admin: setting up admin profile
+add-categories: Adding categories
+add-products: Adding products in categories
+
+User: 
+
+view-categories: View categories in the application
+view-all-products: View all products in the application
+view-product: View a particular product
+add-to-cart: Add a product to cart
+remove-from-cart: Remove a product from the cart
+
+Admin and user will be prompted to add a username and password, which will be stored in the database.
+
+Using add-categories and add-products, Admin will be prompted to add the registered password, which will be compared with the password added during registration and after verification, desired categories and products can be added.
+
+User will be able to surf through this application using above mentioned commands and add products from desired categories.
